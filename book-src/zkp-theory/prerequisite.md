@@ -71,7 +71,7 @@ $I$ を可算集合とします。確率変数の族 $X=\lbrace X_i \rbrace_{i\i
 
     次の式を満たすとき、アンサンブル $X$ とアンサンブル $Y$ はパーフェクト識別不可能であるという。
 
-    $$ \forall \alpha \in \lbrace 0,1 \rbrace^n ,\ \operatorname{Pr}[X_w\to \alpha] = \operatorname{Pr}[Y_w\to \alpha] $$
+    $$ \forall w \in \lbrace 0,1 \rbrace , \ \forall \alpha \in \lbrace 0,1 \rbrace^n ,\ \operatorname{Pr}[X_w\to \alpha] = \operatorname{Pr}[Y_w\to \alpha] $$
 
 簡単に言うと、どれだけ計算能力があっても、どれだけの値を観測したとしても、与えられたアンサンブルがどちらであるか見分けることができないという性質です。
 
