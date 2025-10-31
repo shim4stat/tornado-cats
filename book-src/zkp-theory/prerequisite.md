@@ -81,7 +81,7 @@ $I$ を可算集合とします。確率変数の族 $X=\lbrace X_i \rbrace_{i\i
 
     次の式を満たすとき、アンサンブル $X$ とアンサンブル $Y$ は統計的識別不可能であるという。
 
-    $$ \sum_{\alpha \in \lbrace 0,1\rbrace^n} \left| \operatorname{Pr}[X_w \to \alpha] = \operatorname{Pr}[Y_w\to \alpha] \right| < \varepsilon(n) $$
+    $$ \forall w \in \lbrace 0,1 \rbrace^n, \sum_{\alpha \in \lbrace 0,1\rbrace^n} \left| \operatorname{Pr}[X_w \to \alpha] - \operatorname{Pr}[Y_w\to \alpha] \right| < \varepsilon(n) $$
 
 簡単に言うと、どれだけ計算能力があっても、多項式個の値を観測しただけでは、与えられたアンサンブルがどちらであるか見分けることができないという性質です。
 
